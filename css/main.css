@@ -1,0 +1,44 @@
+/* My awesome CSS! */
+
+body {
+    background-color: rgb(235, 122, 41);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    
+}
+
+header,  footer {
+   background-color: blueviolet;
+}
+
+.side-title {
+   color: rgb(199, 199, 21);
+}
+
+#my-image{
+    /* 0 horizontal and vertical placement, 2px of the blur, 1px of the spread and black colour  */
+    margin-left: 50px;
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul{
+    list-style-type: square;
+}
+
+li:nth-child(odd) {
+    background-color: lightyellow;
+}
+
+
+
+
+.button:hover{
+ background-color: blue;
+ transition:0.7s
+}
+
+
+
+  
+
+
